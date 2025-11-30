@@ -1,0 +1,14 @@
+{
+  "summary": {
+    "period_end_date": "2025-03-31",
+    "current_roas": 7.55,
+    "previous_roas": 7.63,
+    "spend_change_percent": -1.52,
+    "worst_campaign_by_roas": "Men Bold Colors Drop"
+  },
+  "validation": {
+    "is_valid": true,
+    "confidence_score": 0.9,
+    "critique": "The hypothesis accurately reflects the data, noting the decline in ROAS and identifying the 'Men Bold Colors Drop' campaign as the worst-performing. The spend decrease is also correctly identified as a potential contributing factor to the drop in ROAS."
+  }
+}
