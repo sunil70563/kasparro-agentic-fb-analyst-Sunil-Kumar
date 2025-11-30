@@ -1,0 +1,21 @@
+app:
+  name: "Kasparro Agentic Analyst"
+  version: "1.1.0"
+
+data:
+  path: "data/synthetic_fb_ads_undergarments.csv"
+  use_sample_data: false   # Set to true for quick debugging with 50 rows
+  sample_size: 50
+
+thresholds:
+  low_ctr: 0.015
+  roas_drop_alert: 0.10
+
+llm:
+  provider: "groq"
+  model: "llama-3.3-70b-versatile"
+  base_url: "https://api.groq.com/openai/v1"
+  temperature: 0.2
+
+system:
+  random_seed: 42  # Ensures reproducibility
